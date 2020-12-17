@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+body{
+    background-color: #2378;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.container {
+    display: block;
+    width: 600px;
+    height: 290px;
+    margin: 0 auto;
+}
+.white-keys kbd {
+    background-color: white;
+    display: inline-block;
+    height: 50px;
+    width: 75px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    padding-top: 225px;
+    margin-left: -6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.black-keys {
+    margin-top: -279px;
+}
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    padding-top: 120px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.positionStyle1 {
+    position: relative;
+    left: 45px;
+}
+
+.positionStyle2 {
+    position: relative;
+    left: 65px;
+}
+
+.positionStyle3 {
+    position: relative;
+    left: 155px;
+}
+
+.positionStyle4 {
+    position: relative;
+    left: 180px;
+}
+
+.positionStyle5 {
+    position: relative;
+    left: 195px;
+}
+
